@@ -1,0 +1,23 @@
+{
+  "name": "shorti.ml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "4.16.3",
+    "body-parser": "1.18.3",
+    "short-unique-id": "1.1.1",
+    "joi": "13.4.0",
+    "lowdb": "1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.17.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
